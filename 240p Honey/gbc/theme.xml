@@ -1,0 +1,60 @@
+<theme>
+    <formatVersion>4</formatVersion>
+    <include>./../pixel.xml</include>
+
+	<view name="system">
+
+    <image name="console_overlay" extra="true">
+			<tile>false</tile>
+			<pos>0.5 0.5</pos>
+			<origin>0.5 0.5</origin>
+			<maxSize>0.85 0.85</maxSize>
+			<path>./wallpaper.png</path>
+		</image>
+
+		<image name="logo">
+			<path>./system.svg</path>
+    </image>
+
+		<helpsystem name="help">
+			<textColor>ffffff</textColor>
+			<iconColor>ffffff</iconColor>
+		</helpsystem>
+
+	</view>
+
+	<view name="basic, detailed">
+	</view>
+
+  <view name="basic">
+
+    <image name="logo">
+			<path>./system.svg</path>
+			<pos>0.5 0.14</pos>
+			<maxSize>0.275 0.5</maxSize>
+			<origin>0.5 0.5</origin>
+		</image>
+
+		<image name="background" extra="true">
+			<tile>false</tile>
+			<pos>0.18 0.3</pos>
+			<origin>0 0</origin>
+			<size>0.6 0.6</size>
+			<color>555555</color>
+			<path>./wallpaper.png</path>
+		</image>
+
+	</view>
+
+	<view name="detailed">
+
+		<image name="logo">
+			<path>./system.svg</path>
+			<pos>0.78 0.13</pos>
+			<maxSize>0.418 0.115</maxSize>
+			<origin>0.5 0.5</origin>
+		</image>
+
+	</view>
+
+</theme>
